@@ -4,25 +4,44 @@
 
 ## Problem
 
-_Description not available._
+### Area of circle
+
+Write a program that takes the radius of a circle as input and prints its area. (use $\pi$ = 3.14)
+
+### Sample 1:
+Input
+Output
+
+```
+5
+```
+
+```
+78.5
+```
 
 ## Solution
 
 **Language:** Java  
 **Runtime:** N/A  
 **Memory:** N/A  
-**Submitted:** 2026-10-06T12:26:49.290Z  
+**Submitted:** 2026-10-06T12:31:08.503Z  
 
 ```java
 import java.util.Scanner;
-public class Main {
-    public static void main(String[] args) {
-        Scanner scanner = new Scanner(System.in);
-        int one = scanner.nextInt();
-         int two = scanner.nextInt();
-        System.out.println(one /two);
-    }
+class Codechef
+{
+	public static void main (String[] args) 
+	{
+		// your code goes here
+        Scanner sc=new Scanner(System.in);
+        double radius = sc.nextDouble();
+        double area=3.14*radius * radius;
+        System.out.println(area);
+        
+	}
 }
+
 ```
 
 ---
