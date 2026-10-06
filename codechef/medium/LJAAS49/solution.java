@@ -1,9 +1,13 @@
 import java.util.Scanner;
-public class Main {
-    public static void main(String[] args) {
-        Scanner scanner = new Scanner(System.in);
-        int one = scanner.nextInt();
-         int two = scanner.nextInt();
-        System.out.println(one /two);
-    }
+class Codechef
+{
+	public static void main (String[] args) 
+	{
+		// your code goes here
+        Scanner sc=new Scanner(System.in);
+        double radius = sc.nextDouble();
+        double area=3.14*radius * radius;
+        System.out.println(area);
+        
+	}
 }
